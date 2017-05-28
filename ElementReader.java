@@ -24,7 +24,6 @@ public class ElementReader
     {
       System.out.println(e.getMessage());
     }
-
   }
 
   public void readToPeriodicTable() {

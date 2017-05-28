@@ -72,6 +72,9 @@ public class Menu
         periodicTable.printTable();
         break;
       case 4:
+        System.out.println("--- Writing table to file ---");
+        ElementWriter elementWriter = new ElementWriter(periodicTable);
+        elementWriter.writeToFile();
         break;
       case 5:
         System.exit(0);

@@ -18,6 +18,11 @@ public class PeriodicTable
     incrementPointer();
   }
 
+  public Element fetchAt(int row, int column)
+  {
+    return elements[row][column];
+  }
+
   public void printTable()
   {
     for (int i = 0; i < 10; i++)

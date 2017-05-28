@@ -6,8 +6,8 @@ public class Main
   {
     System.out.println("It's starting boys");
 
-    PeriodicTable peroidicTable = new PeriodicTable();
-    Menu menu = new Menu(peroidicTable);
+    PeriodicTable periodicTable = new PeriodicTable();
+    Menu menu = new Menu(periodicTable);
 
     menu.run();
   }
